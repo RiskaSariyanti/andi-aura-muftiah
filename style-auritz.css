@@ -1,0 +1,132 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar {
+  z-index: 100;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.hero-section img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  padding-top: 30vh;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text .btn {
+  font-size: 1rem;
+}
+
+/* Button Tags */
+.tag-button {
+  margin: 5px;
+}
+
+/* Produk Section Umum */
+#produk h2 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.product-card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .card-title {
+  font-weight: bold;
+}
+
+.card .card-text {
+  font-size: 1rem;
+}
+
+.card .btn {
+  margin-top: 10px;
+}
+
+/* Produk Unggulan Card khusus */
+.card[style*="background-color"] {
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .hero-text {
+    padding-top: 20vh;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .product-card img {
+    height: 150px;
+  }
+}
